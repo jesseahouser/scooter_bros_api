@@ -1,24 +1,16 @@
-# README
+Challenge:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### index && Read
+  1. Display all the Bros when you make a GET request to /bros
 
-Things you may want to cover:
+### show && Read
+  2. Display the 1 requested Bro when you have a GET request to /bros/:id
 
-* Ruby version
+### create && Create
+  3. Create and render a new bro when POST request to /bros/:id
 
-* System dependencies
+### update && Update
+  4. Update an existing bro when PATCH or PUT request to /bros/:id
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### destroy && Delete
+  5. Delete an existing bro when DELETE qures /bros/:id
